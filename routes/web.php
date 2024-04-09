@@ -13,3 +13,7 @@ Route::get('/rusel', function () {
 Route::get('/tayong', function () {
     return 'Hello Tayong!';
 });
+
+Route::get('/tamayo', function () {
+    return 'Hello Tamayo!';
+});
