@@ -7,5 +7,9 @@ Route::get('/', function () {
 });
 
 Route::get('/rusel', function () {
-    return 'Hello Rusel Tayong!';
+    return 'Hello Rusel!';
+});
+
+Route::get('/tayong', function () {
+    return 'Hello Tayong!';
 });
